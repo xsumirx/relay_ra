@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+android:background="#505050"
+tools:context="in.elexidea.ramesh1.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:elevation="50dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/white">
+
+
+            <ScrollView
+                android:id="@+id/containerButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0000"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:scrollbars="vertical">
+
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Wing-A"
+                        android:textAllCaps="false"
+                        android:textColor="#fff" />
+
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Wing-B"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:scaleType="fitXY"
+                        android:text="Wing-C&amp;D"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Wet Area"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Green Zone"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Kids Play Area"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                    <Button
+                        android:id="@+id/btn7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Commercial Street"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:id="@+id/btn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Outdoor Amenities"
+                        android:textColor="@color/white"
+                        android:visibility="visible" />
+
+
+                    <Button
+                        android:id="@+id/btn9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="BUILDING-8"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+
+                    <Button
+                        android:id="@+id/btn10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="BUILDING-9"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="ADMIN BUILDING"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="LANDSCAPING"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="CLUB HOUSE"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="ALL LANDSCAPING"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="11B"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+
+                    <Button
+                        android:id="@+id/btn16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="11C"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOFF"
+                        android:text="Button 16"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/final_bank" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
